@@ -1574,7 +1574,7 @@
 
 "@remix-run/router@1.0.4":
   version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.4.tgz#cbfbec6735711e7c2fc93b9b40adf70ef5a39990"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.0.4.tgz"
   integrity sha512-gTL8H5USTAKOyVA4xczzDJnC3HMssdFa3tRlwBicXynx9XfiXwneHnYQogwSKpdCkjXISrEKSTtX62rLpNEVQg==
 
 "@rollup/plugin-babel@^5.2.0":
@@ -3114,7 +3114,7 @@ color-name@^1.0.0, color-name@^1.1.4, color-name@~1.1.4:
 
 color-string@^1.9.0:
   version "1.9.1"
-  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.9.1.tgz#4467f9146f036f855b764dfb5bf8582bf342c7a4"
+  resolved "https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz"
   integrity sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==
   dependencies:
     color-name "^1.0.0"
@@ -3122,7 +3122,7 @@ color-string@^1.9.0:
 
 color@^4.2:
   version "4.2.3"
-  resolved "https://registry.yarnpkg.com/color/-/color-4.2.3.tgz#d781ecb5e57224ee43ea9627560107c0e0c6463a"
+  resolved "https://registry.npmjs.org/color/-/color-4.2.3.tgz"
   integrity sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==
   dependencies:
     color-convert "^2.0.1"
@@ -3373,7 +3373,7 @@ css-select@^4.1.3:
 
 css-selector-tokenizer@^0.8.0:
   version "0.8.0"
-  resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.8.0.tgz#88267ef6238e64f2215ea2764b3e2cf498b845dd"
+  resolved "https://registry.npmjs.org/css-selector-tokenizer/-/css-selector-tokenizer-0.8.0.tgz"
   integrity sha512-Jd6Ig3/pe62/qe5SBPTN8h8LeUg/pT4lLgtavPf7updwwHpvFzxvOQBHYj2LZDMjUnBzgvIUSjRcf6oT5HzHFg==
   dependencies:
     cssesc "^3.0.0"
@@ -3500,7 +3500,7 @@ csstype@^3.0.2:
 
 daisyui@^2.42.1:
   version "2.42.1"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.42.1.tgz#68a5778249117bf013be93808ef091256ee54c54"
+  resolved "https://registry.npmjs.org/daisyui/-/daisyui-2.42.1.tgz"
   integrity sha512-IVeEvP8gvOzHR47fMrOp2YocQJMRmYskhdt7OsuhKJNn+YzLRGOpVpY7AGXt/56pYeYy7h03THHXRTW5cVU9rQ==
   dependencies:
     color "^4.2"
@@ -4362,7 +4362,7 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
 
 fastparse@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
+  resolved "https://registry.npmjs.org/fastparse/-/fastparse-1.1.2.tgz"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
 fastq@^1.6.0:
@@ -5043,7 +5043,7 @@ is-arrayish@^0.2.1:
 
 is-arrayish@^0.3.1:
   version "0.3.2"
-  resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
+  resolved "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
   integrity sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
 
 is-bigint@^1.0.1:
@@ -7462,6 +7462,11 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -7484,7 +7489,7 @@ react-refresh@^0.11.0:
 
 react-router-dom@^6.4.4:
   version "6.4.4"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.4.4.tgz#4271ec66333c440d1754477e4e6a3a5acb5487f8"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.4.4.tgz"
   integrity sha512-0Axverhw5d+4SBhLqLpzPhNkmv7gahUwlUVIOrRLGJ4/uwt30JVajVJXqv2Qr/LCwyvHhQc7YyK1Do8a9Jj7qA==
   dependencies:
     "@remix-run/router" "1.0.4"
@@ -7492,7 +7497,7 @@ react-router-dom@^6.4.4:
 
 react-router@6.4.4:
   version "6.4.4"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.4.4.tgz#8e7794f55ccc7050cb03937c87ff3720ce9f8b60"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.4.4.tgz"
   integrity sha512-SA6tSrUCRfuLWeYsTJDuriRqfFIsrSvuH7SqAJHegx9ZgxadE119rU8oOX/rG5FYEthpdEaEljdjDlnBxvfr+Q==
   dependencies:
     "@remix-run/router" "1.0.4"
@@ -8016,7 +8021,7 @@ signal-exit@^3.0.2, signal-exit@^3.0.3:
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
-  resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  resolved "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
   integrity sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==
   dependencies:
     is-arrayish "^0.3.1"
