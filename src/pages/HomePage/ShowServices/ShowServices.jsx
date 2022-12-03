@@ -7,7 +7,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const ShowServices = () => {
   return (
-    <section className="container mx-auto px-4 lg:px-0 py-52">
+    <section id="show-service" className="container mx-auto px-4 lg:px-0 py-52">
       <h1 className="text-3xl">
         Good design means <br /> good business
       </h1>

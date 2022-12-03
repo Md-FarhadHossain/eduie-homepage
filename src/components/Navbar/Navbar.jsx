@@ -1,19 +1,20 @@
 import React from "react";
+import { BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
   const menu = (
     <>
       <li>
-        <a>Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a>Services</a>
+        <a href="#service">Services</a>
       </li>
       <li>
-        <a>Our Works</a>
+        <a href="#show-service">Our Works</a>
       </li>
       <li>
-        <a>Clients</a>
+        <a href="#review">Clients</a>
       </li>
       <li>
         <a>Contact</a>
@@ -22,27 +23,14 @@ const Navbar = () => {
   );
 
   return (
-    <div>
+    <section>
       <div className="navbar container mx-auto justify-between">
         <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-xl">Eduie</a>
+          <a className="btn btn-ghost normal-case text-3xl font-bold">Eduie</a>
         </div>
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+            <label tabIndex={0} className="btn btn-ghost lg:hidden text-2xl">
+             <BiMenu />
             </label>
             <ul
               tabIndex={0}
@@ -55,7 +43,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal p-0">{menu}</ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
