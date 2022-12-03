@@ -26,7 +26,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className="container mx-auto px-4 lg:px-0 py-52">
+    <section className="container mx-auto px-4 lg:px-0 pt-52">
       <h1 className="text-3xl text-gray-700 mb-16">
         We offer high <br /> demand services{" "}
       </h1>
