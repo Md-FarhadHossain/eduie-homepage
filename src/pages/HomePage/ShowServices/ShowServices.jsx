@@ -12,7 +12,7 @@ const ShowServices = () => {
         Good design means <br /> good business
       </h1>
 
-      <div className="grid lg:grid-cols-2 gap-4 mx-32">
+      <div className="grid lg:grid-cols-2 gap-4 lg:mx-32">
         {/* Left side */}
         <div className="mt-40">
             {/* 1 */}

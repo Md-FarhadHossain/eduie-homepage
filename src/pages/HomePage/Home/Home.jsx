@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../../components/Footer/Footer'
 import Hero from '../Hero/Hero'
 import Newsletter from '../Newsletter/Newsletter'
 import Review from '../Review/Review'
@@ -15,6 +16,7 @@ const Home = () => {
         <ShowServices />
         <Team />
         <Review />
+        <Footer />
     </div>
   )
 }
