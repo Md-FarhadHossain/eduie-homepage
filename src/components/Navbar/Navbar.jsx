@@ -25,6 +25,8 @@ const Navbar = () => {
     <div>
       <div className="navbar container mx-auto justify-between">
         <div className="navbar-start">
+          <a className="btn btn-ghost normal-case text-xl">Eduie</a>
+        </div>
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -44,13 +46,11 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content right-0 mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {menu}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Eduie</a>
-        </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menu}</ul>
         </div>
